@@ -40,9 +40,12 @@ object MainForm: TMainForm
       ExplicitTop = 2
       ExplicitWidth = 825
       ExplicitHeight = 350
+<<<<<<< HEAD
       inherited PaintBox: TPaintBox
         OnMouseDown = DrawFrame1PaintBoxMouseDown
       end
+=======
+>>>>>>> e8f608cd522bdc38c67d43349785aa8cfd1c7f97
     end
   end
   object MainMenu: TMainMenu

@@ -200,7 +200,11 @@ Set the default options for FastMM here.
 
 {Set this option to enable reporting of memory leaks. Combine it with the two
  options below for further fine-tuning.}
+<<<<<<< HEAD
 {$define EnableMemoryLeakReporting}
+=======
+{.$define EnableMemoryLeakReporting}
+>>>>>>> e8f608cd522bdc38c67d43349785aa8cfd1c7f97
 
   {Set this option to suppress the display and logging of expected memory leaks
    that were registered by pointer. Leaks registered by size or class are often
@@ -352,9 +356,15 @@ Set the default options for FastMM here.
   {.$undef UseOutputDebugString}
 {$else}
   {Specify the options you use for debugging below}
+<<<<<<< HEAD
   {.$define FullDebugMode}
   {.$define EnableMemoryLeakReporting}
   {.$define UseOutputDebugString}
+=======
+  {$define FullDebugMode}
+  {$define EnableMemoryLeakReporting}
+  {$define UseOutputDebugString}
+>>>>>>> e8f608cd522bdc38c67d43349785aa8cfd1c7f97
 {$endif}
 
 {--------------------Compilation Options For borlndmm.dll---------------------}
